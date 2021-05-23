@@ -1,0 +1,11 @@
+@mixin feedback-default() {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@mixin feedback-title() {
+  color: #fff;
+  font-size: 35px;
+}
