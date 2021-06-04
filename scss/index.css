@@ -352,6 +352,7 @@
 
 .request__background {
   background: url("../resources/background/request-bg.png") no-repeat;
+  background-size: cover;
   width: 100%;
   height: 378px;
 }
