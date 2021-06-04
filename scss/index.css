@@ -14,6 +14,7 @@
   font-size: 20px;
 }
 .preview__info__block {
+  position: absolute;
   margin: 0 8px 0 -16px;
   height: 25px;
   width: 7px;
@@ -22,6 +23,10 @@
 .preview__info__block.cases {
   margin-top: 42px;
   height: 111px;
+}
+.preview__info__block.operations {
+  margin-top: 66px;
+  height: 116px;
 }
 .preview__info__phone {
   margin-right: 18px;
@@ -151,6 +156,7 @@
   width: 1171px;
   display: flex;
 }
+
 .pros {
   margin-top: 43px;
 }
@@ -255,11 +261,180 @@
   font-size: 18px;
 }
 
+.operations {
+  display: flex;
+}
+.operations__container {
+  display: flex;
+  flex-direction: column;
+  width: 609px;
+}
+.operations__container__outer {
+  display: flex;
+}
+.operations__title {
+  margin-top: 62px;
+  width: 448px;
+  color: #00675f;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 0.899;
+}
+.operations__subtitle {
+  margin-top: 36px;
+  font-size: 30px;
+}
+.operations__content {
+  margin: 29px 0 0 0;
+  background: url("../resources/shapes/operations_border.png") no-repeat;
+  height: 129px;
+  width: 546px;
+  font-size: 18px;
+  color: #4a8a83;
+  padding: 21px;
+}
+.operations__feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.operations__feature__container {
+  margin-top: 30px;
+  padding: 0 14px 0 20px;
+  width: 546px;
+  display: flex;
+  justify-content: space-between;
+}
+.operations__feature__image {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../resources/shapes/ellipse.png") no-repeat;
+  width: 33px;
+  height: 33px;
+}
+.operations__feature__title {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.operations__pros {
+  display: flex;
+}
+.operations__pros__container {
+  margin-top: 39px;
+  display: flex;
+  flex-direction: column;
+  height: 539px;
+  justify-content: space-between;
+}
+.operations__pros__content__container {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  line-height: 1.2;
+}
+.operations__pros__content__title {
+  color: #00675f;
+  font-weight: bold;
+  font-size: 21px;
+}
+.operations__pros__content__text {
+  margin-top: 5px;
+  color: #666666;
+  font-size: 18px;
+}
+.operations__pros__img {
+  width: 114px;
+  height: 116px;
+}
+
+.request__background {
+  background: url("../resources/background/request-bg.png") no-repeat;
+  width: 100%;
+  height: 378px;
+}
+.request__container {
+  margin-top: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 118px 0 102px;
+}
+.request__item {
+  text-align: center;
+  height: 219px;
+  width: 101px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.request__item__ico__computer, .request__item__ico__medical, .request__item__ico__scalpel, .request__item__ico__cross {
+  transition: 0.4s background ease-out;
+}
+.request__item__ico__computer {
+  background: url("../resources/requests/computer.png");
+  width: 88px;
+  height: 76px;
+}
+.request__item__ico__computer:hover {
+  background: url("../resources/requests/computer_active.png");
+}
+.request__item__ico__medical {
+  background: url("../resources/requests/medical.png");
+  width: 87px;
+  height: 103px;
+}
+.request__item__ico__medical:hover {
+  background: url("../resources/requests/medical_active.png");
+}
+.request__item__ico__scalpel {
+  background: url("../resources/requests/scalpel.png");
+  width: 77px;
+  height: 86px;
+}
+.request__item__ico__scalpel:hover {
+  background: url("../resources/requests/scalpel_active.png");
+}
+.request__item__ico__cross {
+  background: url("../resources/requests/cross.png");
+  width: 64px;
+  height: 65px;
+}
+.request__item__ico__cross:hover {
+  background: url("../resources/requests/cross_active.png");
+}
+.request__item__arrow {
+  background: url("../resources/requests/arrow.png");
+  margin: auto 0;
+  height: 24px;
+  width: 65px;
+}
+.request__item__title {
+  font-size: 20px;
+  line-height: 1;
+}
+.request__item__number {
+  font-size: 30px;
+  color: #879e9f;
+}
+.request__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 1171px;
+}
+
 * {
   font-family: "PT Sans Narrow", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */

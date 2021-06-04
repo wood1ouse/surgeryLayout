@@ -1,6 +1,8 @@
 @import "preview";
 @import "wrapper";
 @import "pros";
+@import "operations";
+@import "request";
 @import "mixins";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 * {
@@ -10,4 +12,7 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
 
