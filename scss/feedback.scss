@@ -1,0 +1,35 @@
+@import "mixins";
+
+.feedback {
+  &__background {
+    display: flex;
+    justify-content: center;
+    background: url("../resources/background/prosbg.png") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 361px;
+    &__corner {
+      position: absolute;
+      margin-top: -41px;
+      background: url("../resources/shapes/corner.png");
+      background-size: cover;
+      width: 109px;
+      height: 71px;
+    }
+  }
+  &__sign {
+    @include feedback-default;
+    align-self: center;
+    background: url("../resources/shapes/Rectangle3copy5.png");
+    width: 655px;
+    height: 269px;
+    &__title {
+      @include feedback-title;
+    }
+    &__subtitle {
+      text-align: center;
+      font-size: 20px;
+      color: #a9ddd9;
+    }
+  }
+}

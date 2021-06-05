@@ -1,5 +1,8 @@
+@import "mixins";
+
 .request {
   &__background {
+    position: relative;
     background: url("../resources/background/request-bg.png") no-repeat;
     background-size: cover;
     width: 100%;
@@ -67,6 +70,7 @@
     &__title {
       font-size: 20px;
       line-height: 1;
+      color: #4a4a4a;
     }
     &__number {
       font-size: 30px;
@@ -78,5 +82,14 @@
     display: flex;
     margin: 0 auto;
     width: 1171px;
+  }
+
+  &__feedback {
+    &__background {
+      margin-top: -29px;
+      background: url("../resources/background/request-feedback-bg.png") no-repeat;
+      background-size: cover;
+      height: 368px;
+    }
   }
 }

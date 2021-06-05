@@ -27,6 +27,14 @@
   margin-top: 66px;
   height: 116px;
 }
+.preview__info__block.reviews {
+  margin-top: 92px;
+  height: 71px;
+}
+.preview__info__block.map {
+  margin-top: 96px;
+  height: 31px;
+}
 .preview__info__phone {
   margin-right: 18px;
 }
