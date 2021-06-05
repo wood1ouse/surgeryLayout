@@ -1,0 +1,39 @@
+.map__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.map__title {
+  margin-top: 80px;
+  color: #00675f;
+  font-weight: bold;
+  font-size: 45px;
+}
+.map__subtitle {
+  font-size: 30px;
+  color: #002422;
+}
+.map__image {
+  position: absolute;
+  margin-top: -24px;
+  background: url("../resources/background/map.png");
+  height: 492px;
+  width: 100%;
+}
+.map__image__wrapper {
+  width: 100%;
+}
+.map__ico {
+  position: absolute;
+  margin: 140px 513px;
+  background: url("../resources/shapes/mapico.png");
+  width: 144px;
+  height: 209px;
+  z-index: 1000;
+}
+.map__ico__wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=map.css.map */
