@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="juxtapose mapping module">
-      <change afterPath="$PROJECT_DIR$/resources/background/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/background/request-feedback-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/diplomas/2009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/diplomas/2014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/diplomas/arrow-left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/diplomas/arrow-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/diplomas/ordinature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/shapes/diploma-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/shapes/mapico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/feedback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/reviews.scss" afterDir="false" />
+    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="4/4 blocks done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/feedback.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pros.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pros.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pros.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pros.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/pros.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/pros.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/request.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/request.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/map.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +68,7 @@
       <workItem from="1622723208051" duration="6882000" />
       <workItem from="1622805075504" duration="108000" />
       <workItem from="1622805264054" duration="21270000" />
-      <workItem from="1622888194324" duration="11172000" />
+      <workItem from="1622888194324" duration="12502000" />
     </task>
     <task id="LOCAL-00001" summary="2 blocks done">
       <created>1621793735793</created>
@@ -107,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622833298910</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4/4 blocks done">
+      <created>1622906458590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1622906458590</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4/4 blocks done">
+      <created>1622906506277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622906506277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +128,8 @@
     <MESSAGE value="2 blocks done" />
     <MESSAGE value="3 blocks, slider with juxtaposeJS" />
     <MESSAGE value="juxtapose mapping module" />
-    <option name="LAST_COMMIT_MESSAGE" value="juxtapose mapping module" />
+    <MESSAGE value="4/4 blocks done" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/4 blocks done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

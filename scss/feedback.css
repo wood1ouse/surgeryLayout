@@ -6,6 +6,10 @@
   max-width: 100%;
   height: 361px;
 }
+.feedback__background.request {
+  margin-top: -30px;
+  background: url("../resources/background/request-feedback-bg.png") no-repeat;
+}
 .feedback__background__corner {
   position: absolute;
   margin-top: -41px;
