@@ -1,0 +1,95 @@
+@media (max-width: 1201px) {
+  .preview__info {
+    margin-left: 10px;
+  }
+
+  .cases__container {
+    margin-left: 20px;
+  }
+
+  .reviews__block__content {
+    width: 350px;
+  }
+}
+@media (max-width: 1001px) {
+  .pros__recs {
+    height: 1285px;
+  }
+  .pros__recs__quality {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pros__recs__quality__container {
+    margin-left: 235px;
+  }
+  .pros__recs__grid {
+    margin: 84px 165px 0 165px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pros__recs__info {
+    width: 81%;
+  }
+
+  .reviews__title, .reviews__subtitle {
+    margin-left: 5px;
+  }
+  .reviews__block__container {
+    width: 85%;
+    margin-left: 9px;
+  }
+  .reviews__block__content {
+    width: 285px;
+  }
+  .reviews__diploma__container {
+    margin-left: 13px;
+    width: 80%;
+  }
+  .reviews__diploma__container img {
+    width: 300px;
+    height: 203px;
+  }
+  .reviews__diploma__arrow__left, .reviews__diploma__arrow__right {
+    display: none;
+  }
+
+  .request__wrapper {
+    width: 1061px;
+  }
+}
+@media (max-width: 801px) {
+  .pros__recs {
+    height: 1315px;
+  }
+  .pros__recs__quality__container {
+    margin-left: 155px;
+  }
+  .pros__recs__grid {
+    margin: 84px 49px 0 71px;
+  }
+  .pros__recs__info {
+    width: 70%;
+  }
+
+  .reviews__block__content {
+    width: 240px;
+  }
+  .reviews__block__container {
+    width: 69%;
+  }
+  .reviews__diploma__container {
+    width: 65%;
+  }
+  .reviews__diploma__container img {
+    width: 207px;
+    height: 145px;
+  }
+  .reviews__diploma__arrow__left, .reviews__diploma__arrow__right {
+    display: none;
+  }
+
+  .request__container {
+    width: 85%;
+  }
+}
+
+/*# sourceMappingURL=media-query.css.map */
