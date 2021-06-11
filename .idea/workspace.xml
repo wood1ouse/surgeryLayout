@@ -1,33 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="feedback block fix">
-      <change afterPath="$PROJECT_DIR$/resources/slider/Setup_Recordit.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/slider/TeamViewer_Setup_x64.exe" afterDir="false" />
+    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="preview logic rebasing, slider without juxtapose and response layout">
+      <change afterPath="$PROJECT_DIR$/scss/media-query.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/juxtapose.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/zombie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zombie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/feedback.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/feedback.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/feedback.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/feedback.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/map.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/operations.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/operations.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/operations.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/operations.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/operations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/operations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/request.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/request.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/request.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/request.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/request.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/request.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +77,7 @@
       <workItem from="1623234744475" duration="4744000" />
       <workItem from="1623335524274" duration="9934000" />
       <workItem from="1623355406604" duration="1189000" />
-      <workItem from="1623408561138" duration="14144000" />
+      <workItem from="1623408561138" duration="14289000" />
     </task>
     <task id="LOCAL-00001" summary="2 blocks done">
       <created>1621793735793</created>
@@ -142,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622907724840</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="preview logic rebasing, slider without juxtapose and response layout">
+      <created>1623431977665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623431977665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +153,8 @@
     <MESSAGE value="juxtapose mapping module" />
     <MESSAGE value="4/4 blocks done" />
     <MESSAGE value="feedback block fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="feedback block fix" />
+    <MESSAGE value="preview logic rebasing, slider without juxtapose and response layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="preview logic rebasing, slider without juxtapose and response layout" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

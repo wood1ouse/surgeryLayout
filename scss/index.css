@@ -614,17 +614,6 @@
   height: 100%;
 }
 
-* {
-  font-family: "PT Sans Narrow", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  overflow-x: hidden;
-}
-
 @media (max-width: 1201px) {
   .preview__info {
     margin-left: 10px;
@@ -717,6 +706,16 @@ body {
   .request__container {
     width: 85%;
   }
+}
+* {
+  font-family: "PT Sans Narrow", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */
