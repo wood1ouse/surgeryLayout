@@ -111,12 +111,14 @@
 .preview__face {
   position: absolute;
   margin-left: 305px;
+  margin-bottom: 124px;
   background: url("../resources/faces/face.png") no-repeat;
   width: 1160px;
-  height: 1072px;
-  transition: background 2s;
+  height: 855px;
+  transition: all linear 0.3s;
 }
 .preview__face.zombie {
+  height: 0px;
   background: url("../resources/faces/zombie.png") no-repeat;
 }
 
@@ -322,10 +324,40 @@
   width: 114px;
   height: 116px;
 }
+.operations__slider {
+  width: 960px;
+  height: 1134px;
+}
+.operations__slider__image__before {
+  background: url("../resources/slider/2.jpg");
+  width: 100%;
+  height: 99%;
+}
+.operations__slider__image__after {
+  background: url("../resources/slider/1.jpg");
+  width: 100%;
+  height: 35%;
+}
+.operations__slider__line {
+  margin-top: 393px;
+  position: absolute;
+  height: 3px;
+  width: 961px;
+  background: #41d6ca;
+  transition: all linear 0.5s;
+}
+.operations__slider__line__ico {
+  margin: -25px 0 0 100px;
+  width: 54px;
+  height: 54px;
+  background: url("../resources/slider/hand-gesture.png");
+  border-radius: 50%;
+}
 
 .request__background {
   position: relative;
   background: url("../resources/background/request-bg.png") no-repeat;
+  background-position: 50%;
   background-size: cover;
   width: 100%;
   height: 378px;
@@ -419,6 +451,7 @@
 .feedback__background.request {
   margin-top: -30px;
   background: url("../resources/background/request-feedback-bg.png") no-repeat;
+  background-size: cover;
 }
 .feedback__background__corner {
   position: absolute;
@@ -499,6 +532,7 @@
   width: 100%;
   height: 378px;
   z-index: 1000;
+  background-position: 50%;
 }
 .reviews__diploma__container {
   width: 100%;
@@ -557,7 +591,7 @@
   color: #002422;
 }
 .map__image {
-  margin-left: 2px;
+  margin-left: -4px;
   position: absolute;
   margin-top: -24px;
   background: url("../resources/background/map.png");
@@ -569,7 +603,7 @@
 }
 .map__ico {
   position: absolute;
-  margin: 140px 513px;
+  margin: 140px 510px;
   background: url("../resources/shapes/mapico.png");
   width: 144px;
   height: 209px;
@@ -589,6 +623,100 @@
 
 body {
   overflow-x: hidden;
+}
+
+@media (max-width: 1201px) {
+  .preview__info {
+    margin-left: 10px;
+  }
+
+  .cases__container {
+    margin-left: 20px;
+  }
+
+  .reviews__block__content {
+    width: 350px;
+  }
+}
+@media (max-width: 1001px) {
+  .pros__recs {
+    height: 1285px;
+  }
+  .pros__recs__quality {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pros__recs__quality__container {
+    margin-left: 235px;
+  }
+  .pros__recs__grid {
+    margin: 84px 165px 0 165px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pros__recs__info {
+    width: 81%;
+  }
+
+  .reviews__title, .reviews__subtitle {
+    margin-left: 5px;
+  }
+  .reviews__block__container {
+    width: 85%;
+    margin-left: 9px;
+  }
+  .reviews__block__content {
+    width: 285px;
+  }
+  .reviews__diploma__container {
+    margin-left: 13px;
+    width: 80%;
+  }
+  .reviews__diploma__container img {
+    width: 300px;
+    height: 203px;
+  }
+  .reviews__diploma__arrow__left, .reviews__diploma__arrow__right {
+    display: none;
+  }
+
+  .request__wrapper {
+    width: 1061px;
+  }
+}
+@media (max-width: 801px) {
+  .pros__recs {
+    height: 1315px;
+  }
+  .pros__recs__quality__container {
+    margin-left: 155px;
+  }
+  .pros__recs__grid {
+    margin: 84px 49px 0 71px;
+  }
+  .pros__recs__info {
+    width: 70%;
+  }
+
+  .reviews__block__content {
+    width: 240px;
+  }
+  .reviews__block__container {
+    width: 69%;
+  }
+  .reviews__diploma__container {
+    width: 65%;
+  }
+  .reviews__diploma__container img {
+    width: 207px;
+    height: 145px;
+  }
+  .reviews__diploma__arrow__left, .reviews__diploma__arrow__right {
+    display: none;
+  }
+
+  .request__container {
+    width: 85%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */

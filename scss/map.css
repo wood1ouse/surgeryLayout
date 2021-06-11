@@ -14,7 +14,7 @@
   color: #002422;
 }
 .map__image {
-  margin-left: 2px;
+  margin-left: -4px;
   position: absolute;
   margin-top: -24px;
   background: url("../resources/background/map.png");
@@ -26,7 +26,7 @@
 }
 .map__ico {
   position: absolute;
-  margin: 140px 513px;
+  margin: 140px 510px;
   background: url("../resources/shapes/mapico.png");
   width: 144px;
   height: 209px;

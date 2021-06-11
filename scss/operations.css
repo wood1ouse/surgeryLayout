@@ -86,5 +86,34 @@
   width: 114px;
   height: 116px;
 }
+.operations__slider {
+  width: 960px;
+  height: 1134px;
+}
+.operations__slider__image__before {
+  background: url("../resources/slider/2.jpg");
+  width: 100%;
+  height: 99%;
+}
+.operations__slider__image__after {
+  background: url("../resources/slider/1.jpg");
+  width: 100%;
+  height: 35%;
+}
+.operations__slider__line {
+  margin-top: 393px;
+  position: absolute;
+  height: 3px;
+  width: 961px;
+  background: #41d6ca;
+  transition: all linear 0.5s;
+}
+.operations__slider__line__ico {
+  margin: -25px 0 0 100px;
+  width: 54px;
+  height: 54px;
+  background: url("../resources/slider/hand-gesture.png");
+  border-radius: 50%;
+}
 
 /*# sourceMappingURL=operations.css.map */

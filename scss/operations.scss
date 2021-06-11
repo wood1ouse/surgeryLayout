@@ -89,4 +89,36 @@
       height: 116px;
     }
   }
+  &__slider{
+    width: 960px;
+    height: 1134px;
+    &__image {
+      &__before {
+        background: url("../resources/slider/2.jpg");
+        width: 100%;
+        height: 99%;
+      }
+      &__after {
+        background: url("../resources/slider/1.jpg");
+        width: 100%;
+        height: 35%;
+      }
+    }
+    &__line {
+      margin-top: 393px;
+      position: absolute;
+      height: 3px;
+      width: 961px;
+      background: #41d6ca;
+      transition: all linear .5s;
+      &__ico {
+        margin: -25px 0 0 100px;
+        width: 54px;
+        height: 54px;
+        background: url("../resources/slider/hand-gesture.png");
+        border-radius: 50%;
+      }
+    }
+  }
+
 }

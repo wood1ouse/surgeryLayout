@@ -8,6 +8,7 @@
 @import "map";
 @import "mixins";
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
 * {
   font-family: 'PT Sans Narrow', sans-serif;
   box-sizing: border-box;
@@ -19,3 +20,121 @@ body {
   overflow-x: hidden;
 }
 
+@media (max-width: 1201px) {
+  .preview__info {
+    margin-left: 10px;
+  }
+  .cases__container {
+    margin-left: 20px;
+  }
+  .reviews__block__content {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1001px) {
+  .pros {
+    &__recs {
+      height: 1285px;
+      &__quality {
+        flex-direction: column;
+        align-items: center;
+        &__container {
+          margin-left: 235px;
+        }
+
+      }
+      &__grid {
+        margin: 84px 165px 0 165px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      &__info {
+        width: 81%;
+      }
+    }
+  }
+
+  .reviews {
+    &__title, &__subtitle {
+      margin-left: 5px;
+
+    }
+    &__block {
+
+      &__container {
+        width: 85%;
+        margin-left: 9px;
+      }
+      &__content {
+        width: 285px;
+      }
+    }
+    &__diploma {
+      &__container {
+        margin-left: 13px;
+        width: 80%;
+        & img {
+          width: 300px;
+          height: 203px;
+        }
+      }
+      &__arrow__left, &__arrow__right {
+        display: none;
+      }
+    }
+  }
+
+  .request__wrapper {
+    width: 1061px;
+  }
+}
+
+@media (max-width: 801px) {
+  .pros {
+    &__recs {
+      height: 1315px;
+      &__quality__container {
+        margin-left: 155px;
+      }
+      &__grid {
+        margin: 84px 49px 0 71px;
+      }
+      &__info {
+        width: 70%;
+      }
+    }
+  }
+  .reviews {
+    &__block {
+      &__content {
+        width: 240px;
+
+      }
+      &__container {
+        width: 69%;
+      }
+    }
+    &__diploma {
+      &__container {
+        width: 65%;
+        & img {
+          width: 207px;
+          height: 145px;
+        }
+      }
+      &__arrow__left, &__arrow__right {
+        display: none;
+      }
+    }
+  }
+
+
+  .request__container {
+    width: 85%;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+}

@@ -125,12 +125,14 @@
   &__face {
     position: absolute;
     margin-left: 305px;
+    margin-bottom: 124px;
     background: url("../resources/faces/face.png") no-repeat;
     width: 1160px;
-    height: 1072px;
-    transition: background 2s;
+    height: 855px;
+    transition: all linear .3s;
 
     &.zombie {
+      height: 0px;
       background: url("../resources/faces/zombie.png") no-repeat;
     }
   }
