@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="map fix">
+    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="another map fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/media-query.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media-query.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/media-query.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media-query.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/media-query.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/media-query.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/reviews.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623433527802</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="another map fix">
+      <created>1623434184619</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623434184619</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +178,8 @@
     <MESSAGE value="feedback block fix" />
     <MESSAGE value="preview logic rebasing, slider without juxtapose and response layout" />
     <MESSAGE value="map fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="map fix" />
+    <MESSAGE value="another map fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="another map fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
