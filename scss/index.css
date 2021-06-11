@@ -671,6 +671,13 @@
   .request__wrapper {
     width: 1061px;
   }
+
+  .map__image {
+    margin-left: -100px;
+  }
+  .map__ico {
+    margin: 139px 413px;
+  }
 }
 @media (max-width: 801px) {
   .pros__recs {
@@ -701,6 +708,16 @@
   }
   .reviews__diploma__arrow__left, .reviews__diploma__arrow__right {
     display: none;
+  }
+
+  .map__image {
+    margin-left: -198px;
+  }
+  .map__ico {
+    margin: 139px 315px;
+  }
+  .map__title {
+    font-size: 38px;
   }
 
   .request__container {

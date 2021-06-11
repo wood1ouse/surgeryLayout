@@ -65,6 +65,14 @@
   .request__wrapper {
     width: 1061px;
   }
+  .map {
+    &__image {
+      margin-left: -100px;
+    }
+    &__ico {
+      margin: 139px 413px;
+    }
+  }
 }
 
 @media (max-width: 801px) {
@@ -106,6 +114,17 @@
     }
   }
 
+  .map {
+    &__image {
+      margin-left: -198px;
+    }
+    &__ico {
+      margin: 139px 315px;
+    }
+    &__title {
+      font-size: 38px;
+    }
+  }
 
   .request__container {
     width: 85%;
