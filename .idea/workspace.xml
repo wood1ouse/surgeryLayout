@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="another map fix">
+    <list default="true" id="38c10283-f074-401f-bd8b-268e2a56ff97" name="Default Changelist" comment="bg image height">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/zombie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/zombie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/preview.css" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/preview.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/preview.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +82,7 @@
       <workItem from="1623335524274" duration="9934000" />
       <workItem from="1623355406604" duration="1189000" />
       <workItem from="1623408561138" duration="14289000" />
+      <workItem from="1623496235807" duration="11241000" />
     </task>
     <task id="LOCAL-00001" summary="2 blocks done">
       <created>1621793735793</created>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623434184619</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bg image height">
+      <created>1623434755481</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1623434755481</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +189,8 @@
     <MESSAGE value="preview logic rebasing, slider without juxtapose and response layout" />
     <MESSAGE value="map fix" />
     <MESSAGE value="another map fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="another map fix" />
+    <MESSAGE value="bg image height" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg image height" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

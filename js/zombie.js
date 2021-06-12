@@ -1,10 +1,19 @@
-document.addEventListener("scroll", function() {
+const face = document.querySelector(".preview__face")
+const zombie = document.querySelector(".preview__face__zombie")
+
+document.addEventListener("scroll", () =>{
     const scrollHeight = window.pageYOffset;
-    document.querySelector(".preview__face").style.transform = scrollHeight >= 10
-        ? "translateY(100%)"
+    zombie.style.transform = scrollHeight >= 0 && scrollHeight <= 800
+        ? `translateY(${scrollHeight}px)`
+        : face.style.position = 'sticky'
+    face.style.height = scrollHeight >= 50
+        ? `${zombie.clientHeight - scrollHeight - 220}px`
         : "";
-    document.querySelector(".preview__face.zombie").style.height = scrollHeight >= 10
-        ? "867px" :
-        "";
+    zombie.style.height = scrollHeight >= 800
+        ? "890px"
+        : ""
+
 });
+
+
 
