@@ -127,13 +127,11 @@
     background: url("../resources/faces/face.png") no-repeat;
     width: 1160px;
     height: 1072px;
-    transition: all linear .3s;
 
     &__zombie {
       position: absolute;
       margin-left: 305px;
       margin-bottom: 124px;
-      transition: all linear .3s;
       height: 1072px;
       background: url("../resources/faces/zombie.png") no-repeat;
     }
